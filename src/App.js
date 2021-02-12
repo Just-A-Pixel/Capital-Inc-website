@@ -1,24 +1,30 @@
 import logo from './logo.svg';
+import Navbar from './Navbar';
+import Header from './Header'
+import About from './About'
+import Testimonials from './Testimonials'
+import Zoom from 'react-reveal/Zoom';
+import Team from './Team';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+ 
+    <Navbar /> 
+    <Header />
+    <br/><br/><br/>
+    <Zoom>
+      <About />
+    </Zoom>
+    <br/><br/><br/><br/><br/>
+    <Zoom>
+      <Testimonials />
+    </Zoom>
+    <Zoom>
+      <Team/>
+    </Zoom>
+    </>
   );
 }
 
