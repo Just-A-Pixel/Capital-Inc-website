@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Capital-Inc-website/static/css/main.59400b4f.chunk.css",
-    "main.js": "/Capital-Inc-website/static/js/main.8d2ccf8c.chunk.js",
-    "main.js.map": "/Capital-Inc-website/static/js/main.8d2ccf8c.chunk.js.map",
+    "main.js": "/Capital-Inc-website/static/js/main.3ad7f6eb.chunk.js",
+    "main.js.map": "/Capital-Inc-website/static/js/main.3ad7f6eb.chunk.js.map",
     "runtime-main.js": "/Capital-Inc-website/static/js/runtime-main.d17fd169.js",
     "runtime-main.js.map": "/Capital-Inc-website/static/js/runtime-main.d17fd169.js.map",
-    "static/js/2.e68af694.chunk.js": "/Capital-Inc-website/static/js/2.e68af694.chunk.js",
-    "static/js/2.e68af694.chunk.js.map": "/Capital-Inc-website/static/js/2.e68af694.chunk.js.map",
+    "static/js/2.4338a3d1.chunk.js": "/Capital-Inc-website/static/js/2.4338a3d1.chunk.js",
+    "static/js/2.4338a3d1.chunk.js.map": "/Capital-Inc-website/static/js/2.4338a3d1.chunk.js.map",
     "index.html": "/Capital-Inc-website/index.html",
     "static/css/main.59400b4f.chunk.css.map": "/Capital-Inc-website/static/css/main.59400b4f.chunk.css.map",
-    "static/js/2.e68af694.chunk.js.LICENSE.txt": "/Capital-Inc-website/static/js/2.e68af694.chunk.js.LICENSE.txt",
+    "static/js/2.4338a3d1.chunk.js.LICENSE.txt": "/Capital-Inc-website/static/js/2.4338a3d1.chunk.js.LICENSE.txt",
     "static/media/dp.13f06ffc.png": "/Capital-Inc-website/static/media/dp.13f06ffc.png",
     "static/media/expert.001c76c9.svg": "/Capital-Inc-website/static/media/expert.001c76c9.svg",
     "static/media/logo.6ce24c58.svg": "/Capital-Inc-website/static/media/logo.6ce24c58.svg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d17fd169.js",
-    "static/js/2.e68af694.chunk.js",
+    "static/js/2.4338a3d1.chunk.js",
     "static/css/main.59400b4f.chunk.css",
-    "static/js/main.8d2ccf8c.chunk.js"
+    "static/js/main.3ad7f6eb.chunk.js"
   ]
 }
