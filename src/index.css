@@ -90,9 +90,10 @@ h1 {
 
 .card-container {
   max-height: 493px;
+  width: 100%;
   max-width: 444px;
   /* min-width: 100px; */
-  width: 100%;
+  
   background-color:rgba(30, 79, 58, 0.2);
   border: solid 2px #1E6544;
   display: flex;
@@ -152,11 +153,11 @@ h1 {
 
 
 @media only screen and (max-width: 680px) {
-  .card-container{
-    max-height: 300px;
-  }
+  /* .card-container{
+    max-height: 393px;
+  } */
 
-  .slider-btn {
+  /* .slider-btn {
     margin-top: 290px;
-  }
+  } */
 }

@@ -5,6 +5,7 @@ import About from './About'
 import Testimonials from './Testimonials'
 import Zoom from 'react-reveal/Zoom';
 import Team from './Team';
+import Email from './Email';
 import './App.css';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
     </Zoom>
     <Zoom>
       <Team/>
+    </Zoom>
+    <Zoom>
+      <Email />
     </Zoom>
     </>
   );
