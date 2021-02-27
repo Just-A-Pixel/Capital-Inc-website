@@ -15,9 +15,9 @@ function App() {
     <Navbar /> 
     <Header />
     <br/><br/><br/>
-    <Zoom>
+  
       <About />
-    </Zoom>
+   
     <br/><br/><br/><br/><br/>
     <Zoom>
       <Testimonials />

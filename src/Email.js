@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-
+import './Email.css'
 const Email = ()=> {
     function sendEmail(e) {
         e.preventDefault();
@@ -15,14 +15,14 @@ const Email = ()=> {
       }
     
       return (
-          <div style={{display:'flex', alignItems:'column'}}> 
-            <form className="contact-form" onSubmit={sendEmail}>
+          <div style={{width:'600px'}}> 
+            <form className="contact-form" onSubmit={sendEmail} style={{display:'flex', justifyContent:'center',flexDirection:'column', padding: '10px'}}>
                     <input type="hidden" name="contact_number" placeholder="Name" />
-                    <label>Name</label>
+        
                     <input type="text" name="user_name" placeholder="Subject"/>
-                    <label>Email</label>
+                    {/* <label>Email</label> */}
                     <input type="email" name="user_email" placeholder="Email"/>
-                    <label>Message</label>
+                    {/* <label>Message</label> */}
                     <textarea name="message" placeholder="Message"/>
                     <input type="submit" value="Send" />
             </form>

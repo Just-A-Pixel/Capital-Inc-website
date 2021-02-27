@@ -6,11 +6,12 @@ const About = () => {
         <h1 className="section-title">
             <span style={{color:'#1A8D54'}}>About</span> Us
         </h1>
-           <br />
-           <p style={{textAlign:'center',color:'white', width:'600px', margin: 'auto'}}>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non tempus libero, sed aliquam diam. Nam hendrerit efficitur ante non eleifend. Nullam sagittis dolor diam, at tempor nulla mattis ut. Suspendisse potenti. 
+           <br /><br /><br /><br />
+           <p style={{textAlign:'center',color:'white', width:'100%', margin: 'auto', maxWidth: '600px', fontSize:'20px'}}>
+           Capital Inc. is an algo-based portfolio management firm with a comprehensive focus on building efficient trading models and market research reports to generate a stable alpha.  
+Our "algo-intuit" technology where we do fundamental and technical analysis subsequently governed with a thorough intuitive knowledge about market behaviour is what our aim is.
            </p>
-           < br/>< br/>< br/>< br/>< br/>< br/>< br/>< br/>< br/>
+           
         </>
         
     )
