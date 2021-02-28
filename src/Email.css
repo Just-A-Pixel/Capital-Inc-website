@@ -30,10 +30,12 @@ label {
 .text-input {
     background: none;
     border: none;
-    border-bottom: solid 1px ;
+    border-bottom: solid 1px #20995C;
     outline: none;
     margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.692);
 }
+
 
 .text-input:hover{
     border-bottom: solid 1px white;
@@ -45,7 +47,7 @@ label {
     color: white;
     border: solid 3px #20995C;
     background: rgb(32, 153, 92, 0.01);
-    transition: 500ms;
+    transition: 300ms;
 
     
 }
@@ -53,5 +55,5 @@ label {
 .btn:hover {
     color: white;
     background: rgb(32, 153, 92, 0.5);
-    transition: 500ms;
+    transition: 300ms;
 }
