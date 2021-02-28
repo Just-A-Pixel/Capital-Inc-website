@@ -27,7 +27,8 @@ const Testimonials = () => {
     if(width>990) {
     return(
         <>
-        <h1 className="section-title" >
+
+        <h1 className="section-title" id="testimonials">
              Testimonials
         </h1>
            <br />
@@ -40,7 +41,7 @@ const Testimonials = () => {
                 )
             }}
            >
-           <TestimonialCard /><TestimonialCard /><TestimonialCard /><TestimonialCard />
+           <TestimonialCard /><TestimonialCard />
             </Carousel>
            </div>
             

@@ -6,6 +6,7 @@ import Testimonials from './Testimonials'
 import Zoom from 'react-reveal/Zoom';
 import Team from './Team';
 import Email from './Email';
+import Footer from './Footer'
 import './App.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
     <Zoom>
       <Email />
     </Zoom>
+    
+      <Footer />
+    
     </>
   );
 }

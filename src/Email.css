@@ -1,0 +1,57 @@
+.outer-form {
+    background-color: aliceblue;
+    padding: 60px 0px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30,101,68, 0.05);
+    border: #1E6544 2px solid;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 70px;
+    color: #FFFFFF;
+    display: block;
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+    margin-top: 130px;
+  }
+
+label {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.text-input {
+    background: none;
+    border: none;
+    border-bottom: solid 1px ;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+.text-input:hover{
+    border-bottom: solid 1px white;
+}
+.btn {
+    max-width: 240px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    border: solid 3px #20995C;
+    background: rgb(32, 153, 92, 0.01);
+    transition: 500ms;
+
+    
+}
+
+.btn:hover {
+    color: white;
+    background: rgb(32, 153, 92, 0.5);
+    transition: 500ms;
+}

@@ -1,0 +1,43 @@
+.outer-box{
+    background: #1E4D39;
+    height: 600px;
+    width: 100%;
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    max-width: 475px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 32px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.line {
+    /* margin-top: 70pxpx; */
+    height: 1px;
+    background: white;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 57px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 17px;
+    padding: 0px 20px;
+    text-align: center;
+}

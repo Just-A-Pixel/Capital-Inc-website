@@ -15,18 +15,23 @@ const Email = ()=> {
       }
     
       return (
-          <div style={{width:'600px'}}> 
-            <form className="contact-form" onSubmit={sendEmail} style={{display:'flex', justifyContent:'center',flexDirection:'column', padding: '10px'}}>
-                    <input type="hidden" name="contact_number" placeholder="Name" />
-        
-                    <input type="text" name="user_name" placeholder="Subject"/>
-                    {/* <label>Email</label> */}
-                    <input type="email" name="user_email" placeholder="Email"/>
-                    {/* <label>Message</label> */}
-                    <textarea name="message" placeholder="Message"/>
-                    <input type="submit" value="Send" />
+          <>
+          <h1 className="section-title" id='contact'>
+             Contact Us
+        </h1>
+        <br/>
+         <div class="outer-form">
+            <form className="contact-form" onSubmit={sendEmail} style={{display:'flex', justifyContent:'center',flexDirection:'column', width:'600px'}}>
+                    <label>Full Name</label><br/>
+                    <input className="text-input" type="text" name="user_name" />
+                    <label>Email</label><br/>
+                    <input className="text-input" type="email" name="user_email" />
+                    <label >Message</label><br/>
+                    <input className="text-input" name="message" /><br/>
+                    <input className="btn" type="submit" value="Send Message" />
             </form>
           </div>
+          </>
         
       );
 }

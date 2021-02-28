@@ -23,11 +23,11 @@ const Navbar = () => {
                 <img src = {logo} style={{height:"127px", marginRight:"auto"}}/>
                 
                 {/* <div style={{display:"flex", justifyContent: "space-evenly"}}> */}
-                    <span className="nav-item" style={{margin:'auto', marginLeft:'200px'}}> Home</span>
-                    <span className="nav-item" style={{margin:'auto'}}> Testimonials </span>
-                    <span className="nav-item" style={{margin:'auto'}}> Services </span>
-                    <span className="nav-item" style={{margin:'auto'}}> Team </span>
-                    <span className="nav-item" style={{margin:'auto', fontWeight:"bold"}}> Contact Us </span>
+                    <span className="nav-item" style={{margin:'auto', marginLeft:'200px'}}> <a href="#" style={{textDecoration:'none', color:'white'}}>Home</a></span>
+                    <span className="nav-item" style={{margin:'auto'}}> <a href="#testimonials" style={{textDecoration:'none', color:'white'}}>Testimonials</a> </span>
+                    <span className="nav-item" style={{margin:'auto'}}> <a href="#" style={{textDecoration:'none', color:'white'}}>Services</a> </span>
+                    <span className="nav-item" style={{margin:'auto'}}> <a href="#team" style={{textDecoration:'none', color:'white'}}>Team</a> </span>
+                    <span className="nav-item" style={{margin:'auto', fontWeight:"bold"}}> <a href="#contact" style={{textDecoration:'none', color:'white'}}>Contact Us</a> </span>
             </div>
         )
     } else {
@@ -40,23 +40,16 @@ const Navbar = () => {
                 <Burger  open = {open}/>
                 </div>
 
-                
-                {/* <div style={{display:"flex", justifyContent: "space-evenly"}}> */}
-                    {/* <span className="nav-item" style={{margin:'auto', marginLeft:'200px'}}> Home</span>
-                    <span className="nav-item" style={{margin:'auto'}}> Testimonials </span>
-                    <span className="nav-item" style={{margin:'auto'}}> Services </span>
-                    <span className="nav-item" style={{margin:'auto'}}> Team </span>
-                    <span className="nav-item" style={{margin:'auto', fontWeight:"bold"}}> Contact Us </span> */}
                 </div>
-                <div style={{ position:'absolute', width:'100vw', right:'0px'}}>
+                <div style={{ position:'absolute', width:'100vw', right:'0px', zIndex: '10', top: '100px', backdropFilter: 'blur(10px)', transition:'200ms'}}>
                     
                     {open ? 
                     <FadeIn visible={true}>
-                        <div className="nav-item" > Home</div>
-                        <div className="nav-item" > Testimonials </div>
-                        <div className="nav-item" > Services </div>
-                        <div className="nav-item" > Team </div>
-                        <div className="nav-item" style={{ fontWeight:"bold"}}> Contact Us </div> 
+                        <div className="nav-item" style={{paddingBottom:'15px', backdropFilter: 'blur(10px)'}}> Home</div>
+                        <div className="nav-item" style={{paddingBottom:'15px'}}> Testimonials </div>
+                        <div className="nav-item" style={{paddingBottom:'15px'}}> Services </div>
+                        <div className="nav-item" style={{paddingBottom:'15px'}}> Team </div>
+                        <div className="nav-item" style={{ fontWeight:"bold", paddingBottom:'15px'}}> Contact Us </div> 
                     </FadeIn> : ''}
                 </div>
             </>
